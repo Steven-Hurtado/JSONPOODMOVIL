@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtUse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="108dp"
+        android:text="Steven"
+        android:textColor="#3F51B5"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtClave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="199dp"
+        android:layout_marginTop="152dp"
+        android:text="123"
+        android:textColor="#3F51B5"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/lblTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColorHighlight="#FFEB3B"
+        android:textColorLink="#FFC107"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/lblUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="93dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Usuario"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/lblClave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="135dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Clave"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="208dp"
+        android:onClick="btEnviar"
+        android:text="Ingresar" />
+</RelativeLayout>
